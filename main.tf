@@ -15,7 +15,7 @@ locals {
 
 # Create a service account and attach the required Cloud Logging permissions to it.
 resource "google_service_account" "atlantis" {
-  account_id   = "atlantis"
+  account_id   = "atlantis_mod"
   display_name = "Service Account for Atlantis"
   project      = local.project_id
 }
