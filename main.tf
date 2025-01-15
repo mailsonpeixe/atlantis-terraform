@@ -3,7 +3,7 @@ locals {
   network      = "<your-network>"
   subnetwork   = "<your-subnetwork>"
   region       = "<your-region>"
-  zone         = "<your-zone>"
+  zone         = "<your- >"
   domain       = "<example.com>"
   managed_zone = "<your-managed-zone>"
 
